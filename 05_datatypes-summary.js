@@ -29,9 +29,33 @@ const myFunction = function(){
     console.log("Namstey everyone")
 }
 
-console.log(typeof bigNumber)
-console.log(typeof myObj)
-console.log(typeof heroes)
-console.log(typeof userEmail)
-console.log(typeof outsideTemp)
-console.log(typeof myFunction)
+// console.log(typeof bigNumber)
+// console.log(typeof myObj)
+// console.log(typeof heroes)
+// console.log(typeof userEmail)
+// console.log(typeof outsideTemp)
+// console.log(typeof myFunction)
+
+
+//********************** MEMORY *************************//
+
+//Stack (Primitive) -- yha copy milta h ,  Heap(Non-Primitive) ---- yha reference milta h
+
+let myYoutubename = "mokshadagourdotcom"
+let  anotherName= myYoutubename
+ anotherName = "ChaiAurCode"
+console.log(myYoutubename)
+console.log(anotherName)
+
+let userOne={
+    email :"moka@gmail.com",
+    upi:"user@ybl"
+}
+anotherName = "ChaiAurCode"
+console.log(userOne)
+let userTwo = userOne
+
+userTwo.email="jalad@gmail.com"
+console.log(userTwo)
+
+console.log(userOne)
