@@ -6,7 +6,7 @@
 
 // Symbol 
 const mySym =Symbol("key1")
-//ques take a symbol and add it in obejct as a keys and print it 
+//ques take a symbol and add it in obejct as a key and print it 
  
 const JsUser = {
     name :"hitesh",
