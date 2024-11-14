@@ -25,7 +25,7 @@ map.set('FR', "France")
 console.log(map)
 for(const [key, value] of map) //--> here we implementated destructuring 
 {
-    console.log(key, ":", value)
+    console.log(`key : ${key}, value : ${value} `)
 
 }
 

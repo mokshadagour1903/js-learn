@@ -11,7 +11,7 @@ const myNums = [1,2,3,4,5,6,7,8,9,10]
     // console.log(newNums);
     
     // const newNums = myNums.filter((num)=>{         //when we start scope with {} then we must use return statement 
-    //      return num > 4               // abhi it is giving empty array so to avoid this we should add return. statement ahead of num > 4 
+    //       num > 4               // abhi it is giving empty array so to avoid this we should add return. statement ahead of num > 4 
     // })
 
     // console.log(newNums);

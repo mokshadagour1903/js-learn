@@ -16,10 +16,10 @@ const coding = ["js","python","java","ruby","dotnet"]
 // }
 // coding.forEach(printMe)
 
-coding.forEach( (item,index,arr)=>{
-console.log(item,index,arr);
+// coding.forEach( (item,index,arr)=>{
+// console.log(item,index,arr);
 
-})
+// })
 
 
 const myCoding =[
